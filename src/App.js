@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useEffect, useState } from "react";
+import TimerCounter from "./Components/TimerCounter";
+import Dropdown from "./Components/Dropdown";
+import Checkbox from "./Components/Checkbox";
+import Carousal from "./Components/Carousal";
+import SwapListItem from "./Components/SwapListItem";
+import StarRating from "./Components/StarRating";
+import ToggelModal from "./Components/ToggelModal";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Dropdown /> */}
+      {/* <Checkbox /> */}
+      {/* <Carousal /> */}
+      {/* <SwapListItem /> */}
+      {/* <StarRating /> */}
+      <ToggelModal />
     </div>
   );
 }
