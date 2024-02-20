@@ -8,6 +8,8 @@ import Carousal from "./Components/Carousal";
 import SwapListItem from "./Components/SwapListItem";
 import StarRating from "./Components/StarRating";
 import ToggelModal from "./Components/ToggelModal";
+import ProgressBar from "./Components/progressBar/ProgressBar";
+import Search from "./Components/SearchBar/Search";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <Carousal /> */}
       {/* <SwapListItem /> */}
       {/* <StarRating /> */}
-      <ToggelModal />
+      {/* <ToggelModal /> */}
+      {/* <ProgressBar /> */}
+      <Search />
     </div>
   );
 }
