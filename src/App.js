@@ -17,11 +17,11 @@ function App() {
       {/* <Dropdown /> */}
       {/* <Checkbox /> */}
       {/* <Carousal /> */}
-      {/* <SwapListItem /> */}
+      <SwapListItem />
       {/* <StarRating /> */}
       {/* <ToggelModal /> */}
       {/* <ProgressBar /> */}
-      <Search />
+      {/* <Search /> */}
     </div>
   );
 }

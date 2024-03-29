@@ -28,9 +28,8 @@ const Checkbox = () => {
     );
   };
   const handleCheckBoxs = () => {
-    setFruitList(
-      fruitList.map((item) => ({ ...item, checked: !item.checked }))
-    );
+    debugger;
+    setFruitList(fruitList.map((item) => ({ ...item, checked: true })));
   };
   return (
     <>
